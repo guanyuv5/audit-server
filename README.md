@@ -24,7 +24,7 @@ bash-4.4#  ./bin/kafka-console-producer.sh --broker-list localhost:9092 --topic 
 1. 启动消费者：
 
 ```bash
-[root@VM-7-14-centos ~]# c'd
+[root@VM-7-14-centos ~]# docker exec -it kafka /bin/bash
 bash-4.4# cd /opt/kafka
 bash-4.4# ls
 LICENSE    NOTICE     bin        config     libs       logs       site-docs
